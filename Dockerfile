@@ -27,6 +27,6 @@ RUN service ssh start
 
 RUN chmod 755 /1.sh
 
-EXPOSE 8080
+EXPOSE 22
 
 CMD /1.sh
